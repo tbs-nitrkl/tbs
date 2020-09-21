@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tag starts here -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0, shrind-to-fit=no" >
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="Keywords" content="Sahil,Sahil Sahil,Mohammad,Mohammad Sahil,Sahil Mohammad,Sahil meaning,life Science,NIT,NIT Rourkela,IIT,Sahil Khan,Sahil Khanna,Sahil age,Monday Morning,Ecell,Ecell NITR,Ecell NIT Rourkela,president,Designer,WebDeveloper">
+    <meta name="Description" content="Mohammad Sahil is a Designer and a WebDeveloper curently a Sophomore student at NIt Rourkela from Dept. of Life Science.">
+    
+    <!-- bootstrap & CSS -->
+    <link rel="stylesheet" href="links/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="flip2.css">
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img_folder/web/favicon.ico" type="image/x-icon"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">  
+    <title>Mohammad Sahil</title> 
+    <style>
+    ::-webkit-scrollbar{
+	width: 0;
+    }
+    #scrollPath{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: rgba(225,225,225,0);
+        height: 100vh;
+        width: 5px;
+        z-index: 999999999999999999999999;
+    }
+    #scrollbar{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: rgba(231,176,48,1);
+        height: 0vh;
+        width: 5px;
+        z-index: 999999999999999999999999999;
+    }
+    #scrollbar:after{
+        content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	filter: blur(5px);
+    background: rgba(231,176,48,1);
+
+        z-index: 999999999999999999999999999;
+    }
+    #scrollbar:before{
+        content: ' ';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	filter: blur(10px);
+    background: rgba(231,176,48,1);
+
+        z-index: 999999999999999999999999999;
+    }
+
+        #loading{
+	
+    width: 100%; 
+    height: 100vh;
+    margin: 0; 
+    padding: 0;
+    background: black;
+    position: fixed;
+    z-index: 99999999999999999999999999;
+
+  }
+  
+  svg {
+    position: absolute;
+    width: 240px;
+    height: 120px;
+    top: 0; right: 0;
+    bottom: 0; left: 0; 
+    margin: auto;
+  }
+    </style>
+</head>
+
+<body onload="preFunction()">
+    <div id="scrollPath"></div>
+    <div id="scrollbar"></div>
+    <!-- preloader starts from here -->
+    <div class="container-fluid" id="loading">
+        <svg version="1.1" id="preloader" x="0px" y="0px" width="240px" height="120px" viewBox="0 0 240 120">
+        
+        <style type="text/css" >
+            <![CDATA[
+        
+                #plug,
+                #socket { fill:rgba(231,176,48,1) }
+        
+                #loop-normal { fill: none; stroke: rgba(231,176,48,1); stroke-width: 12 }
+                #loop-offset { display: none }
+        
+            ]]>
+        </style>
+        
+        <path id="loop-normal" class="st1" d="M120.5,60.5L146.48,87.02c14.64,14.64,38.39,14.65,53.03,0s14.64-38.39,0-53.03s-38.39-14.65-53.03,0L120.5,60.5
+        L94.52,87.02c-14.64,14.64-38.39,14.64-53.03,0c-14.64-14.64-14.64-38.39,0-53.03c14.65-14.64,38.39-14.65,53.03,0z">
+            <animate attributeName="stroke-dasharray" attributeType="XML"
+                from="500, 50"  to="450 50"
+                begin="0s" dur="2s"
+                repeatCount="indefinite"/>
+            <animate attributeName="stroke-dashoffset" attributeType="XML"
+                from="-40"  to="-540"
+                begin="0s" dur="2s"
+                repeatCount="indefinite"/>  
+        </path>
+          
+        <path id="loop-offset" d="M146.48,87.02c14.64,14.64,38.39,14.65,53.03,0s14.64-38.39,0-53.03s-38.39-14.65-53.03,0L120.5,60.5
+        L94.52,87.02c-14.64,14.64-38.39,14.64-53.03,0c-14.64-14.64-14.64-38.39,0-53.03c14.65-14.64,38.39-14.65,53.03,0L120.5,60.5
+        L146.48,87.02z"/>
+          
+        <path id="socket" d="M7.5,0c0,8.28-6.72,15-15,15l0-30C0.78-15,7.5-8.28,7.5,0z"/>  
+          
+        <path id="plug" d="M0,9l15,0l0-5H0v-8.5l15,0l0-5H0V-15c-8.29,0-15,6.71-15,15c0,8.28,6.71,15,15,15V9z"/>
+          
+        <animateMotion
+            xlink:href="#plug"
+              dur="2s"
+            rotate="auto"
+            repeatCount="indefinite"
+            calcMode="linear"
+            keyTimes="0;1"    
+            keySplines="0.42, 0, 0.58, 1">
+            <mpath xlink:href="#loop-normal"/>
+        </animateMotion>
+          
+        <animateMotion             
+            xlink:href="#socket"
+              dur="2s"
+            rotate="auto"
+            repeatCount="indefinite"
+            calcMode="linear"
+            keyTimes="0;1"
+            keySplines="0.42, 0, 0.58, 1">
+            <mpath xlink:href="#loop-offset"/>
+        </animateMotion>  
+        </svg>
+        </div>
+
+        <!-- preoader ends -->
+        
+    <div id="section1">
+   <header class="navbarr container-fluid">
+    <div class="col-11 col-md-10 mx-auto container-fluid">
+        <a class="navbar-brand">
+    <div class="img_logo navbar-brand">
+        <figure>
+            <img src="img_folder/logo1.png" alt="logo.png"/>
+        </figure>
+    </div>
+    </a>
+   <div class="trans_scale">
+   <nav class="menu">
+    <div class="circular_background"></div>
+    <header>Menu <span>×</span></header> 
+    <ol>
+        <li class="menu-item acive"><a href="#section1" active>Home</a></li>
+        <li class="menu-item"><a href="#section2">Work Expertise</a></li>
+        <li class="menu-item"><a href="#section3">About</a></li>
+        <li class="menu-item"><a href="#section4">Gallery</a></li>
+        <li class="menu-item"><a href="#section5">Contact Me</a></li>
+        <li class="menu-item"><a href="#0">Portfolio</a></li>
+        <li class="menu-item"><a href="#0">Skills</a></li>
+        <li class="menu-item"><a href="#0">Portfolio</a></li>
+        <li class="menu-item"><a href="#0">My Projects</a></li>
+    </ol>
+    <footer><button aria-label="Toggle Menu">Toggle</button></footer>
+</nav>
+</div>
+</div>
+</header>
+ <!-- togler nav ends here -->
+
+ <!-- header and body starts from here -->
+
+<div class="container-fluid intro_sec_me">
+    <div class="row">
+        <div class="col-11 col-md-10 mx-auto">
+            <div class="row align-center-row">
+                <div class="col-md-6 col-11 order-md-2 order-2 pragraph_text">
+                    <p class="headtext">HI THERE! 
+                 <h2 class="text-left typing1 text-weight-bold" >I'M <span id="typed" style="color: rgba(231,176,48,1);"> </span></h2> </p>
+                    <p class="headtext2">I'm a Designer, Web Developer, ML Enthusiast, An Entrepreneur.<br>
+                    I'm curently a Workaholic Sophomore at NIT Rourkela from Dept. of Life Science. I design Posters, logos and Web Applications</p>
+                    <div class="d-flex justify-content-around align-items-center">
+                    <div class=" ">
+                    <button class="btn1 shadow-lg"><i class="fa fa-book mr-2" aria-hidden="true"></i><span>Watch My CV</span></a></button>
+                    </div>
+                    <div class=" ">
+                    <a class="btnnn"><i class="fa fa-user mr-2" style="color: rgba(231,176,48,1);" aria-hidden="true"></i>About Me</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-11 img1 order-1 order-md-1">
+                    <div class=" float-left">
+                    <figure class="figure_img">
+                        <img src="img_folder/side_img.png" class="img-fluid" alt="my_img">
+                    </figure>
+                </div>
+
+            </div>
+            
+        </div>
+
+
+    </div>
+</div>
+</div>
+<div class="row container-fluid social_links_div">
+    <div class="col-11 col-md-10 mx-auto rel_bottom">
+        <div class="row align-center-row head_bottom">
+<div id="" class="social_top">
+ <a href="mailto:sahilmejakhas@gmail.com" target="_blank"> <div class="social_outer"><i class="fa fa-envelope" aria-hidden="true"></i></div></a>
+ <a href="https://www.facebook.com/sahil87654" target="_blank"><div class="social_outer"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
+ <a href="https://www.linkedin.com/tsharpsahil" target="_blank"><div class="social_outer"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a>
+ <a href="https://www.instagram.com/tsharpsahil" target="_blank"><div class="social_outer"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
+ <a href="https://www.twitter.com/tsharpsahil?s=03" target="_blank"><div class="social_outer"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+ <a href="https://github.com/Mohammad-Sahil" target="_blank"><div class="social_outer"><i class="fa fa-github" aria-hidden="true"></i></div></a>
+ <a href="#section2"><div class="arrow bounce social_outer"><i class="fa fa-arrow-down" href="#"></i></div></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- </div> -->
+  <!-- header and body ends from here -->
+
+ <!-- work Exepertise starts here -->
+
+<div id="section2">
+ <div class="container-fluid exp_sec">
+    <div class="row exp_row">
+        <div class="col-11 col-md-10 mx-auto">
+            <div class="row d-flex justify-content-center">
+            <div class="col-md-10 col-11 img1 img1-2 order-1 order-md-1 d-flex justify-content-center mb-5 exp_part1">
+                <div class=" ">
+                    <figure>
+                        <img src="img_folder/skills.png" class="img-fluid" alt="my_img">
+                    </figure>
+                </div>
+
+            </div>
+            </div>
+            
+            <div class="main_title exp_part2">
+                <h1 class="text-center work-exp-h">Work Expertise</h1>
+                <p class="text-center">Obiviously I'm a Graphic Designer and a WebDeveloper<br>
+                Experienced with all the design cycle with every Project</p>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12 col-12  order-2 order-md-2 ">
+                    <div class="row single-row exp_part3">
+                    <div class="progressi green col-md-3 col-11 mx-auto">
+                        <h3 class="progressi-title">HTML5</h3>
+                        <div class="progressi-bar one" style="width:80%; background:#601baf;">
+                            <div class="progressi-value">80%</div>
+                        </div>
+                    </div>
+         
+                    <div class="progressi progressi_middle pink col-md-3 col-11 mx-auto">
+                        <h3 class="progressi-title">CSS3</h3>
+                        <div class="progressi-bar two" style="width:90%; background:#161213;">
+                            <div class="progressi-value">90%</div>
+                        </div>
+                    </div>
+                    <div class="progressi blue col-md-3 col-11 mx-auto">
+                      <h3 class="progressi-title">JAVASCRIPT</h3>
+                      <div class="progressi-bar three" style="width:65%; background:#21da9a;">
+                          <div class="progressi-value">65%</div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="row single-row exp_part4">
+                    <div class="progressi green col-md-3 col-11 mx-auto">
+                        <h3 class="progressi-title">J-QUERY</h3>
+                        <div class="progressi-bar four " style="width:55%; background:#601baf;">
+                            <div class="progressi-value">55%</div>
+                        </div>
+                    </div>
+         
+                    <div class="progressi progressi_middle pink col-md-3 col-11 mx-auto">
+                        <h3 class="progressi-title">BOOTSTRAP</h3>
+                        <div class="progressi-bar five " style="width:75%; background:#161213;">
+                            <div class="progressi-value">75%</div>
+                        </div>
+                         </div>
+                    <div class="progressi blue col-md-3 col-11 mx-auto">
+                      <h3 class="progressi-title">PHP</h3>
+                      <div class="progressi-bar six" style="width:50%; background:#21da9a;">
+                          <div class="progressi-value">50%</div>
+                      </div>
+                  </div>
+        
+                  </div>
+                  <div class="row single-row exp_part5">
+                    <div class="progressi green col-md-3 col-11 mx-auto">
+                        <h3 class="progressi-title">ASP.NET</h3>
+                        <div class="progressi-bar seven " style="width:40%; background:#601baf;">
+                            <div class="progressi-value">40%</div>
+                        </div>
+                    </div>
+         
+                    <div class="progressi progressi_middle pink col-md-3 col-11 mx-auto">
+                        <h3 class="progressi-title">ILLUSTRATOR</h3>
+                        <div class="progressi-bar eight " style="width:80%; background:#161213;">
+                            <div class="progressi-value">80%</div>
+                        </div>
+                    </div>
+                    <div class="progressi blue col-md-3 col-11 mx-auto">
+                      <h3 class="progressi-title">PHOTOSHOP</h3>
+                      <div class="progressi-bar nine " style="width:40%; background:#21da9a;">
+                          <div class="progressi-value">40%</div>
+                      </div>
+                  </div>
+        
+                  </div>
+                </div>
+            </div>
+    </div>
+</div>
+</div>
+</div>
+  <!-- Work Expertise Ends here -->
+
+
+<!-- about starts me sec  -->
+<div id="section3">
+<div class="container-fluid about_sec">
+    <div class="row about_row">
+        <div class="col-11 col-md-10 mx-auto about_part1">
+            <div class="main_title">
+                <h1 class="text-center shadow_text">About Me</h1>
+                <p class="text-center">I'm not going to Limit myself just because<br>
+                    People won't accept the fact that I can do something else</p>
+            </div>
+            <div class="row text_para_row">
+                <div class="col-md-5 col-11 mt-5 d-flex align-items-center p-5 about_part2">
+                    <div class=" d-flex justify-content-center align-items-center pt-5 about_inside">
+                    <figure class="cls_figure">
+                        <img src="img_folder/about.png" class="img-fluid" alt="my_img">
+                    </figure>
+                </div>
+        
+            </div>
+                <div class="col-md-7 col-11 about_text d-flex justify-content-ceter flex-collumn about_part3">
+                    <p class="about_text_para">Hello,<br>
+                        <span class="text_span_about text-danger">I'm a Passionate Designer</span><br>
+                        It's not my Portfolio Site, I've just created this page for <b>Fun</b> and <b>Review</b> 
+                        I'm a Workaholic sophomore Student at NIT Rourkela , a WebDeveloper and a Designer. I design Posters, Cards, Brochre etc. Everything is designed and Few things are designed well.<br>
+                        <abbr title="Steve Jobs">Design is not just what it looks like and feels like. Design is how it works</abbr>
+                    </p>
+                   
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- about ends here -->
+
+
+    <!-- projects and Gallery starts here-->
+    <div id="section4">
+        <div class="container-fluid exp_sec">
+           <div class="row exp_row">
+               <div class="col-11 col-md-10 mx-auto">
+                   <div class="row d-flex justify-content-center">
+                   <div class="col-md-10 col-11 img1 img1-2 order-1 order-md-1 d-flex justify-content-center mb-5 pro_part1">
+                       <div class=" ">
+                           <figure>
+                               <img src="img_folder/gallery.png" class="img-fluid" alt="my_img">
+                           </figure>
+                       </div>
+       
+                   </div>
+                   </div>
+                   
+                   <div class="main_title pro_part2">
+                       <h1 class="text-center work-exp-h">Projects & Gallery</h1>
+                       <p class="text-center">It does not take much strength to do things<br>
+                       But it requires a great deal of strength to decide what to do</p>
+                   </div>
+                   <div class="row d-flex justify-content-center">
+                       <div class="col-md-12 col-12  order-2 order-md-2 blur_img">
+                           <div class="row projects_row">
+                            <div class="col-md-3 col-10 mx-auto bg-primary d-flex justify-content-center gallery_img pro_part3">
+
+                                <div class="card bg-warning">
+                                <div class="front-card front-1">
+                                    <span>Demo</span>
+                                </div>
+                                <div class="back-card">
+                                    <p>Doctors Day</p>
+                                    <div class="inline-row bg-dark"> 
+                                        <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat v</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                           </div>
+
+                           <div class="col-md-3 col-10 mx-auto bg-primary d-flex justify-content-center middle_m gallery_img pro_part4">
+                            <div class="card bg-warning">
+                            <div class="front-card front-2">
+                                <span>Demo</span>
+                            </div>
+                            <div class="back-card">
+                                <p>Personal Finance</p>
+                                <div class="inline-row"> 
+                                    <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat v</p>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+
+                           <div class="col-md-3 col-10 mx-auto bg-primary d-flex justify-content-center gallery_img pro_part5">
+                                <div class="card bg-warning">
+                                <div class="front-card front-3">
+                                    <span>Demo</span>
+                                </div>
+                                <div class="back-card">
+                                    <p>Drug Abuse</p>
+                                    <div class="inline-row"> 
+                                        <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat v</p>
+                                </div>
+                                </div>
+                            </div>
+                         </div>
+                         </div>
+                         <div class="row projects_row">
+                            <div class="col-md-3 col-10 mx-auto bg-primary d-flex justify-content-center gallery_img pro_part6">
+                                <div class="card bg-warning">
+                                <div class="front-card front-4">
+                                    <span>Demo</span>
+                                </div>
+                                <div class="back-card">
+                                    <p>Pride Month</p>
+                                    <div class="inline-row"> 
+                                        <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat v</p>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+
+                
+                         <div class="col-md-3 col-10 mx-auto bg-primary d-flex justify-content-center middle_m gallery_img pro_part7">
+                            <div class="card bg-warning">
+                            <div class="front-card front-5">
+                                <span>Demo</span>
+                            </div>
+                            <div class="back-card">
+                                <p>Quiz On Entrepreneurship</p>
+                                <div class="inline-row"> 
+                                    <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat v</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+
+                           <div class="col-md-3 col-10 mx-auto bg-primary d-flex justify-content-center gallery_img pro_part8">
+                                <div class="card bg-warning">
+                                <div class="front-card front-6">
+                                    <span>Demo</span>
+                                </div>
+                                <div class="back-card">
+                                    <p>MSME Day</p>
+                                    <div class="inline-row"> 
+                                        <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat v</p>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+               
+                         </div>
+                         <div class="row projects_row">
+                            <div class="col-md-3 col-10 mx-auto bg-primary d-flex justify-content-center gallery_img pro_part9">
+                                <div class="card bg-warning">
+                                <div class="front-card front-7">
+                                    <span>Demo</span>
+                                </div>
+                                <div class="back-card">
+                                    <p>Population Day</p>
+                                    <div class="inline-row"> 
+                                        <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat v</p>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                
+                         <div class="col-md-3 col-10 mx-auto bg-primary d-flex justify-content-center middle_m gallery_img pro_part10">
+                            <div class="card bg-warning">
+                            <div class="front-card front-8">
+                                <span>Demo</span>
+                            </div>
+                            <div class="back-card">
+                                <p>Population Day </p>
+                                <div class="inline-row"> 
+                                    <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat v</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-10 mx-auto bg-primary d-flex justify-content-center gallery_img pro_part11">
+                        <div class="card bg-warning">
+                        <div class="front-card front-9">
+                            <span>Demo</span>
+                        </div>
+                        <div class="back-card">
+                            <p>Yoga Day</p>
+                            <div class="inline-row"> 
+                                <p class="text-center mt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat v</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+               
+                         </div>
+                       </div>
+                   </div>
+           </div>
+       </div>
+       </div>
+       </div>
+
+    <!-- projects and Gallery ends here-->
+
+ <!-- contact me sec starts here -->
+
+ <!-- https://docs.google.com/forms/d/e/1FAIpQLSdssMCtiH3l9_sp5LwvLZIpWt6TxYV6aFcovZgvw3d7FvUWCw/viewform?usp=pp_url&entry.2005620554=Mohammad+Sahil&entry.1045781291=sahhil@gmail.com&entry.1166974658=07607861998&entry.839337160=GARBAGHE -->
+
+
+ <div id="section5">
+ <div class="container-fluid contact_me_sec">
+    <div class="row contact_row">
+        <div class="col-11 col-md-10 mx-auto">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-10 col-11 img1 img1-2 order-1 order-md-1 d-flex justify-content-center mb-5 con_part1">
+                    <div class=" ">
+                        <figure>
+                            <img src="img_folder/contact.png" class="img-fluid" alt="my_img">
+                        </figure>
+                    </div>
+            
+                </div>
+                </div>
+            <div class="main_title con_part2">
+                <h1 class="text-center">Contact Me</h1>
+                <p class="text-center">Feel free to contact me anytime</p>
+            </div>
+            <div class="row d-flex justify-content-center mt-5">
+                <div class="col-md-6 col-10 form_edit contact_inner con_part3">
+                  <form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSdssMCtiH3l9_sp5LwvLZIpWt6TxYV6aFcovZgvw3d7FvUWCw/formResponse"  method="post">
+ <!-- https://docs.google.com/forms/d/e/1FAIpQLSdssMCtiH3l9_sp5LwvLZIpWt6TxYV6aFcovZgvw3d7FvUWCw/viewform?usp=pp_url&entry.2005620554=Mohammad+Sahil&entry.1045781291=sahhil@gmail.com&entry.1166974658=07607861998&entry.839337160=GARBAGHE -->
+                      <div class="form-group input_box">
+                       
+                        <input type="text" class="form-control input_text" id="entry.2005620554" name="entry.2005620554" placeholder=" " autocomplete="off" required>
+                        <i class="fa fa-user" aria-hidden="true"></i> <label for="entry.2005620554"> Your Name</label>
+                      </div>
+                      <div class="form-group input_box">
+                       
+                          <input type="email" class="form-control input_text" id="entry.1045781291" name="entry.1045781291" placeholder=" " autocomplete="off" required>
+                          <i class="fa fa-envelope" aria-hidden="true"></i><label for="entry.1045781291">  Email</label>
+            
+                        </div>
+                        <div class="form-group input_box">
+                       
+                          <input type="number" class="form-control input_text" id="entry.1166974658" name="entry.1166974658" placeholder="  " autocomplete="off" required>
+                         <i class="fa fa-address-book" aria-hidden="true"></i><label for="entry.1166974658"> Contact Number</label>
+    
+                        </div>
+                     
+                    
+                      <div class="form-group input_box">
+                      
+                        <textarea class="form-control input_text" id="entry.839337160" name="entry.839337160" rows="3" placeholder= " " autocomplete="off" required></textarea>
+                        <i class="fa fa-comment" aria-hidden="true"></i> <label for="entry.839337160"> Your Message</label>
+    
+                      </div>
+                      <div class="text-center btn_div">
+                      <button type="submit" value="submit" class="btn2 btn1 mb-2 mx-auto"><i class="fa fa-arrow-circle-right mr-1" aria-hidden="true"></i>Submit</button>
+                      </div>
+                    </form>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted){}"></iframe>
+                </div>
+                
+                </div>
+    </div>
+</div>
+</div>
+
+ <!-- //////////////////////// foorer starts here////////////////////////-->
+    <!-- <footer class="d-flex justify-content-center align-items-center flex-column bg-dark"> -->
+    <footer class="container-fluid">
+        <div class="row mx-auto">
+            <div class="col-10 col-md-11 mx-auto">
+                <div class="row">
+                    <div class="col-12 col-md-4 footer_div">
+                        <p class=" "><span class="font-weight-bolder">Mohammad Sahil</span><br/>
+                                    G.D. Birla Hall of Residence<br>
+                                    NIT Rourkela<br>
+                                    Rourkela, Odisha
+                        </p>
+                    </div> 
+                    <div class="col-12 col-md-4 footer_div footer_div1 mx-auto">
+                        <div id="" class="social_bottom">
+                            <a href="mailto:sahilmejakhas@gmail.com" target="_blank"> <div class="social_outer"><i class="fa fa-envelope" aria-hidden="true"></i></div></a>
+                            <a href="https://www.facebook.com/sahil87654" target="_blank"><div class="social_outer"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
+                            <a href="https://www.linkedin.com/tsharpsahil" target="_blank"><div class="social_outer"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a>
+                            <a href="https://www.instagram.com/tsharpsahil" target="_blank"><div class="social_outer"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
+                            <a href="https://www.twitter.com/tsharpsahil?s=03" target="_blank"><div class="social_outer"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+                            <a href="https://github.com/Mohammad-Sahil" target="_blank"><div class="social_outer"><i class="fa fa-github" aria-hidden="true"></i></div></a>
+                        </div>
+                    </div> 
+                    <div class="col-12 col-md-4 footer_div footer_div2">
+                        <div class="social_bottom d-flex justify-content-end mx-auto second_top">
+                            <p class=" ">Back To Top</p>
+                            <a href="#section1" style="text-decoration: none;"><div class="arrow bounce2 social_outer"><i class="fa fa-arrow-up" href="#"></i></div></a>
+                        </div>
+                        <p class="text-right font-weight-bold copy_right">© Mohammad Sahil 2020 | All Rights Reserved</p>
+                    </div> 
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+ <!-- /////////////////////// foorer ends here ////////////////////////-->
+
+    <!-- bootstrap first, then Popper.js, then bootstrap JS -->
+<!-- <script src="node_modules\jquery\dist\jquery.slim.min"></script> -->
+<script src="links/popper.min.js"></script>
+<script src="links/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="links/typed.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+<script src="node_modules\parallax-master\src\parallax.js"></script>
+
+<script>
+    //for nav bar starts here
+    var $els = $('.menu a, .menu header');
+ var count = $els.length;
+ var grouplength = Math.ceil(count/3);
+ var groupNumber = 0;
+ var i = 1;
+ $('.menu').css('--count',count+'');
+ $els.each(function(j){
+     if ( i > grouplength ) {
+         groupNumber++;
+         i=1;
+     }
+     $(this).attr('data-group',groupNumber);
+     i++;
+ });
+ 
+ $('.menu footer button').on('click',function(e){
+     e.preventDefault();
+     $els.each(function(j){
+         $(this).css('--top',$(this)[0].getBoundingClientRect().top + ($(this).attr('data-group') * -15) - 20);
+         $(this).css('--delay-in',j*.1+'s');
+         $(this).css('--delay-out',(count-j)*.1+'s');
+     });
+     $('.menu').toggleClass('closed');
+     e.stopPropagation();
+ });
+ 
+ //typed.js start
+ var typed = new Typed('#typed', {
+    strings: ['<strong>MOHAMMAD SAHIL</strong>.', '<strong>A DESIGNER</strong>.', '<strong>A WEBDEVELOPER</strong>.','<strong>AN ENTREPRENEUR</strong>.','<strong>ML ENTHUSIAST</strong>.'],
+    typeSpeed: 50,
+    backSpeed: 60,
+    startDelay: 500,
+    backDelay: 1000,
+    loop: true,
+  });
+
+////////////////////////////////// img magnifier starts here
+
+////////////////////////////////// img magnifier ends here
+///////// waypoints and animate.css starts here
+
+$(document).ready(function(){
+    $('.exp_part1').waypoint(function(direction){
+        $('.exp_part1').addClass('animate__animated animate__zoomIn')
+    },{
+        offset: '50%'
+    });
+
+    $('.exp_part2').waypoint(function(direction){
+        $('.exp_part2').addClass('animate__animated animate__backInUp')
+    },{
+        offset: '50%'
+    });
+    $('.exp_part3').waypoint(function(direction){
+        $('.exp_part3').addClass('animate__animated animate__backInLeft')
+    },{
+        offset: '50%'
+    });
+    $('.exp_part4').waypoint(function(direction){
+        $('.exp_part4').addClass('animate__animated animate__backInRight')
+    },{
+        offset: '50%'
+    });
+    $('.exp_part5').waypoint(function(direction){
+        $('.exp_part5').addClass('animate__animated animate__backInUp')
+    },{
+        offset: '50%'
+    });
+
+});
+$(document).ready(function(){
+    $('.about_part1').waypoint(function(direction){
+        $('.about_part1').addClass('animate__animated animate__backInUp')
+    },{
+        offset: '50%'
+    });
+    $('.about_part2').waypoint(function(direction){
+        $('.about_part2').addClass('animate__animated animate__backInLeft')
+    },{
+        offset: '50%'
+    });
+    $('.about_part3').waypoint(function(direction){
+        $('.about_part3').addClass('animate__animated animate__backInRight')
+    },{
+        offset: '50%'
+    });
+
+});
+$(document).ready(function(){
+    $('.pro_part1').waypoint(function(direction){
+        $('.pro_part1').addClass('animate__animated animate__flip')
+    },{
+        offset: '50%'
+    });
+    $('.pro_part2').waypoint(function(direction){
+        $('.pro_part2').addClass('animate__animated animate__backInUp')
+    },{
+        offset: '50%'
+    });
+    $('.pro_part3').waypoint(function(direction){
+        $('.pro_part3').addClass('animate__animated animate__backInLeft')
+    },{
+        offset: '50%'
+    });
+    $('.pro_part4').waypoint(function(direction){
+        $('.pro_part4').addClass('animate__animated animate__backInUp')
+    },{
+        offset: '50%'
+    });
+    $('.pro_part5').waypoint(function(direction){
+        $('.pro_part5').addClass('animate__animated animate__backInRight')
+    },{
+        offset: '50%'
+    });
+    $('.pro_part6').waypoint(function(direction){
+        $('.pro_part6').addClass('animate__animated animate__backInLeft')
+    },{
+        offset: '50%'
+    });
+    $('.pro_part7').waypoint(function(direction){
+        $('.pro_part7').addClass('animate__animated animate__backInUp')
+    },{
+        offset: '50%'
+    });
+    $('.pro_part8').waypoint(function(direction){
+        $('.pro_part8').addClass('animate__animated animate__backInRight')
+    },{
+        offset: '50%'
+    });
+    $('.pro_part9').waypoint(function(direction){
+        $('.pro_part9').addClass('animate__animated animate__backInLeft')
+    },{
+        offset: '50%'
+    });
+    $('.pro_part10').waypoint(function(direction){
+        $('.pro_part10').addClass('animate__animated animate__backInUp')
+    },{
+        offset: '50%'
+    });
+    $('.pro_part11').waypoint(function(direction){
+        $('.pro_part11').addClass('animate__animated animate__backInRight')
+    },{
+        offset: '50%'
+    });
+
+});
+$(document).ready(function(){
+    $('.con_part1').waypoint(function(direction){
+        $('.con_part1').addClass('animate__animated animate__rubberBand')
+    },{
+        offset: '50%'
+    });
+    $('.con_part2').waypoint(function(direction){
+        $('.con_part2').addClass('animate__animated animate__slideInUp')
+    },{
+        offset: '50%'
+    });
+    $('.con_part3').waypoint(function(direction){
+        $('.con_part3').addClass('animate__animated animate__zoomIn')
+    },{
+        offset: '50%'
+    });
+
+});
+///////// waypoints and animate.css ends here
+////////preloader starts
+    var preloader = document.getElementById('loading');
+    function preFunction(){
+        preloader.style.display='none';
+    }
+////////preloader ends
+////////////contact form starts
+    var submitted = false; 
+    $('#gform').on('submit',function(e){
+        $('#gform *').fadeOut(2000);
+        $('#gform').prepend('Your Submission has been proccessed. Thankyou for Your input . We will get back to you when we feel like it.');
+    });
+////////////contact form ends
+////////scroll bar starts
+let progress = document.getElementById('scrollbar');
+		let totalheight = document.body.scrollHeight - window.innerHeight;
+		window.onscroll = function(){
+			let progressHeight = (window.pageYOffset / totalheight) * 100;
+			progress.style.height = progressHeight + "%";
+		} 
+////////scroll bar ends
+
+
+     
+ </script>
+</body>
+
+</html>
